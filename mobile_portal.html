@@ -29,7 +29,7 @@
 
 body {
     font-family: Verdana, sans-serif;
-    margin: 0;
+    margin: 50;
     padding: 0;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
@@ -199,6 +199,25 @@ body {
 .popup-close:hover {
     background-color: darkblue;
 }
+
+        .row .summer-text {
+            font-size: 0.9rem; /* Slightly larger text */
+            color: white; /* Explicitly set to white */
+            font-weight: bold;
+        }
+
+        .row .eric-link {
+            font-size: 0.8rem; /* Smaller text */
+            color: white; /* White text */
+            text-decoration: underline;
+            cursor: pointer;
+            margin-bottom: 50px; /* Add space below the link */
+            transition: color 0.3s ease;
+        }
+
+        .row .eric-link:hover {
+            color: lightblue; /* Slight color change on hover */
+
     </style>
 </head>
 <body>
@@ -329,18 +348,10 @@ body {
         <button onclick="window.location.href='#'">In Production</button>
     </div>
 </div>
-        <div class="table-row">
-        <div class="table-cell"><b>Full Video Releasing Summer 2025!</b></div>
-
-
-        </div>
+    <div class="row">
+        <div class="summer-text">Full Video Releasing Summer 2025!</div>
+        <a href="https://ericdubay.com" target="_blank" class="eric-link">- an Eric Dubay inspired book -</a>
     </div>
-</div>
-
-<!-- Eric Dubay Link -->
-<a href="https://ericdubay.com" target="_blank" style="color: white; display: block; text-align: center; margin: 20px; font-size: 1.0rem; text-decoration: underline;">
-    - an Eric Dubay inspired book -
-</a>
 
 <!-- Popup Script -->
 <script>
